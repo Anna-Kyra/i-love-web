@@ -1,18 +1,16 @@
 <header>
-    <h1>
-        <a href="/">
-            <img src="#" alt="Hi, welkom bij de I love web van Anna-Kyra Strik" height="50" width="100">
-        </a>
-    </h1>
+    <a href="/">
+        <img src="#" alt="Hi, welkom bij de portfolio van Anna-Kyra Strik" height="50" width="100">
+    </a>
     <nav>
         <button aria-hidden="true">
             menu
         </button>
         <ul>
-            <li><a href="/">Projecten</a></li>
-            <li><a href="/">I love web</a></li>
-            <li><a href="/">Over mij</a></li>
-            <li><a href="/">Contact</a></li>
+            <li><a href="/projects">Projecten</a></li>
+            <li><a href="/i-love-web">I love web</a></li>
+            <li><a href="/about-me">Over mij</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </nav>
 </header>
