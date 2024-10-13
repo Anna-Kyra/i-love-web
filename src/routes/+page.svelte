@@ -7,4 +7,7 @@
     let people = data.people
 </script>
 
-<h1>Insert portfolio</h1>
+<section>
+    <h1>Insert portfolio</h1>
+</section>
+
