@@ -1,6 +1,10 @@
+<script>
+    import logo from '$lib/assets/logo.png'
+</script>
+
 <header>
     <a href="/">
-        <img src="#" alt="Hi, welkom bij de portfolio van Anna-Kyra Strik" height="50" width="100">
+        <img src="{logo}" alt="Hi, welkom bij de portfolio van Anna-Kyra Strik" height="100" width="100">
     </a>
     <nav>
         <button aria-hidden="true">
@@ -28,10 +32,16 @@
         align-items: center;
         gap: 2em;
 
-        padding: 1em 3em;
+        padding: 2em 3em;
 
         background-color: var(--primary-clr);
         
+        position: relative;
+    }
+
+    header img {
+        position: absolute;
+        margin-top: -2em;
     }
 
     header nav {
@@ -52,7 +62,7 @@
 
         text-decoration: none;
         text-transform: uppercase;
-        
+
         color: var(--text-clr);
     }
 
