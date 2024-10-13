@@ -8,6 +8,6 @@
 </script>
 
 <section>
-    <h1>Insert portfolio</h1>
+    <h1>Anna-Kyra Strik</h1>
 </section>
 

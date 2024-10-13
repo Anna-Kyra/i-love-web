@@ -41,6 +41,7 @@
 
     header nav ul{
         display: flex;
+        align-items: center;
         gap: 1em;
 
         list-style: none;
@@ -48,7 +49,7 @@
 
     header nav ul a {
         --text-clr: var(--background-clr);
-        
+
         text-decoration: none;
         text-transform: uppercase;
         

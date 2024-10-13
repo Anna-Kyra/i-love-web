@@ -1,6 +1,18 @@
 /*********************/
 /* LETTERTYPES */
 /*********************/
+@font-face {
+    font-family: "Pavon";
+    src:
+        url("../fonts/Pavon.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Bermia";
+    src:
+        url("../fonts/Bermia-Black.woff") format("woff");
+}
+
 
 
 /*********************/
@@ -25,8 +37,10 @@ button:not(disabled) {
 
     --background-clr: #FEFAE0;
     --text-clr: #283618;
+    --text-50-clr: rgba(40, 54, 24, 0.5);
 
     /* RADIUS */
+    --primary-radius: .5em;
 }
 
 /********************/
@@ -40,11 +54,29 @@ body {
     color: var(--text-clr);
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: "Bermia", serif;
+}
+
+button {
+    padding: .5em 1em;
+    border-radius: var(--primary-radius);
+    border: none;
+    background-color: var(--text-clr);
+    color: var(--background-clr);
+}
+
 /******************************************************/
 /* MOBILE FIRST */
 /******************************************************/
 section {
     padding: 3em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 /******************************************************/
