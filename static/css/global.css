@@ -18,19 +18,34 @@ button:not(disabled) {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
+    /* COLORS */
+    --primary-clr: #606C38;
+    --secondary-clr: #BC6C25;
+    --accent-clr: #DDA15E;
 
+    --background-clr: #FEFAE0;
+    --text-clr: #283618;
+
+    /* RADIUS */
 }
 
 /********************/
 /* GENERAL STYLING */
 /********************/
 body {
+    background-color: var(--background-clr);
 
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
+    color: var(--text-clr);
 }
 
 /******************************************************/
 /* MOBILE FIRST */
 /******************************************************/
+section {
+    padding: 3em;
+}
 
 /******************************************************/
 /* TABLET */

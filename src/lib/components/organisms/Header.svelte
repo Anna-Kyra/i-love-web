@@ -30,7 +30,8 @@
 
         padding: 1em 3em;
 
-        background-color: teal;
+        background-color: var(--primary-clr);
+        
     }
 
     header nav {
@@ -46,8 +47,12 @@
     }
 
     header nav ul a {
+        --text-clr: var(--background-clr);
+        
         text-decoration: none;
         text-transform: uppercase;
+        
+        color: var(--text-clr);
     }
 
     /******************************************************/
