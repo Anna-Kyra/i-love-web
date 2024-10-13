@@ -7,14 +7,4 @@
     let people = data.people
 </script>
 
-<header>
-    <h1>I love web</h1>
-</header>
-
-<main>
-
-</main>
-
-<footer>
-
-</footer>
+<h1>I love web</h1>
