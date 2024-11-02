@@ -4,3 +4,16 @@ title: example
 ---
 
 <h1>Home</h1>
+<section>
+    <ul>
+        {% for post in collections.post %}
+        
+            <li>
+                <h2>{{ post.data.title }}</h2>
+                {{ post.content }}
+            </li>
+        
+        
+        {% endfor %}
+        </ul>
+</section>
