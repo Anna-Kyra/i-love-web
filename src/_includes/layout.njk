@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>{{ title }} - Anna-Kyra Strik</title>
+    <link rel="icon" href="/static/favicon.png" />
+    <link rel="stylesheet" href="/static/global.css">
 </head>
 <body>
-    <header>
 
-    </header>
+    {% include 'header.njk' %}
+
     <main>
         {{ content | safe }}
     </main>
-    <footer>
 
-    </footer>
+    {% include 'footer.njk' %}  
+    
 </body>
 </html>
