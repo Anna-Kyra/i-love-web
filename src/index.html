@@ -7,13 +7,10 @@ title: example
 <section>
     <ul>
         {% for post in collections.post %}
-        
             <li>
                 <h2>{{ post.data.title }}</h2>
                 {{ post.content }}
-            </li>
-        
-        
+            </li>        
         {% endfor %}
-        </ul>
+    </ul>
 </section>
